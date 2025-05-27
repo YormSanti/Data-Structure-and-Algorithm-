@@ -45,11 +45,10 @@ public class List_I {
         for (int i = 0; i < reversedArr.length; i++) {
             System.out.print(reversedArr[i] + " ");
         }
-
-       
-    
-    
         
+
     }
+    
+
     
 }
