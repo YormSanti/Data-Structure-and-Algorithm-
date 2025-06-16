@@ -23,36 +23,27 @@ public class Arr {
         
     }
 
-    static class Student {
-        int sid;
-        String name;
-        double math;
-        double english;
-        double khmer;
+    
+      
+}
 
-        public Student(int sid, String name, double math, double english,double khmer){
-            this.sid = sid;
-            this.name = name;
-            this.math = math;
-            this.english = english;
-            this.khmer = khmer;
-        }
-
-
-       double total(){
-          return  math + english + khmer;
-
-
-        }
-
-        double arverage(){
-
-          return total()/3;
-
-        }
-
-
+class Student {
+    public int sid;
+    String name;
+    double math;
+    double english;
+    double khmer;
+    public Student(int sid, String name, double math, double english,double khmer){
+        this.sid = sid;
+        this.name = name;
+        this.math = math;
+        this.english = english;
+        this.khmer = khmer;
     }
-
-  
+   double total(){
+      return  math + english + khmer;
+    }
+    double arverage(){
+      return total()/3;
+    }
 }
